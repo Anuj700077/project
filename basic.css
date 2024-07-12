@@ -1,0 +1,69 @@
+#container{
+
+}
+#top-header{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+#logo{
+    height: 100%;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(224, 80, 80);
+}
+#Banner{
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    font-size: 30px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:rgb(224, 80, 80);
+}
+#main-content{
+    height: 800px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(120, 206, 120);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    color: white;
+}
+#row1{
+    height: 200px;
+    width: 800px;
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 25px;
+   
+}
+#row2{
+    height: 200px;
+    width: 800px;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+    
+}
+.thumb{
+    height: 100%;
+    width: 250px;
+    border: 2px solid black;
+    background-color: rgb(97, 97, 231);
+}
